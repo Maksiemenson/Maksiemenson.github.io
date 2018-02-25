@@ -65,10 +65,16 @@
     }
 
     .card {
-        width: 43.75%;
+        width: 46.6667%;
 
         &_size-middle {      
             width: 100%;
+        }
+    }
+
+    .author { 
+        &__content {
+            width: 81.7307%;
         }
     }
 
