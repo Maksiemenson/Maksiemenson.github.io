@@ -62,31 +62,13 @@
     .cards {
         width: 100%;
         flex-wrap: wrap;
-
-        &_center {
-            justify-content: center;
-        }
     }
 
     .card {
         width: 43.75%;
 
-        margin-top: 30px;
-
-        &:first-child {
-            margin-top: 0;
-        }
-
-        &:nth-child(2) {
-            margin-top: 0;
-        }
-
         &_size-middle {      
             width: 100%;
-
-            &:nth-child(2) {
-                margin-top: 30px;
-            }
         }
     }
 
